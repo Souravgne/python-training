@@ -14,7 +14,7 @@ win_conditions = [
     (0, 3, 6), (1, 4, 7), (2, 5, 8), # verticals
     (0, 4, 8), (2, 4, 6)             # diagonals
 ]
-
+#tictactoe
 def check_win(player):
     for a, b, c in win_conditions:
         if {squares[a], squares[b], squares[c]} == {player}:
